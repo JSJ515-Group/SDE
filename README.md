@@ -70,6 +70,10 @@ Download the pretrained teacher model via BaiduYun.
 
 Move the downloaded cub200 folder into the save/ directory.
 
+## Pre-trained Teachers
+
+Pre-trained teachers can be downloaded from [Decoupled Knowledge Distillation (CVPR 2022)](https://github.com/megvii-research/mdistiller/releases/tag/checkpoints). Download the 'cifar_teachers.tar' and untar it to './download_ckpts' via 'tar xvf cifar_teachers.tar'.
+
 2. Run Distillation
 Example command for running CIFAR-100 (distilling from ResNet50 to ShuffleNetV1):
 
